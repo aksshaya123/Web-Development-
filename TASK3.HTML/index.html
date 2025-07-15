@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitness Tracker Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Responsive Welcome -->
+  <div class="container">
+    <h1>Welcome to FitLife Tracker</h1>
+    <p>Track your fitness goals and stay motivated every day!</p>
+  </div>
+
+  <!-- Fitness Quiz -->
+  <div class="quiz-box">
+    <h2>Fitness Quick Quiz</h2>
+    <div id="question">Loading...</div>
+    <div id="options"></div>
+    <p id="result"></p>
+  </div>
+
+  <!-- API Workout Fetch -->
+  <div class="api-box">
+    <h2>Random Workout Generator</h2>
+    <button onclick="getWorkout()">Show Workout</button>
+    <p id="jokeText">Click the button to get a workout suggestion.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
